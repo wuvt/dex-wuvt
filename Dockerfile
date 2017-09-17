@@ -1,4 +1,4 @@
-FROM quay.io/coreos/dex:v2.4.0
+FROM quay.io/coreos/dex:v2.6.1
 
 WORKDIR /web/themes/wuvt/
 COPY themes/wuvt/logo.png ./
