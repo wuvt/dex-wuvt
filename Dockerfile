@@ -1,4 +1,4 @@
-FROM quay.io/coreos/dex:v2.10.0
+FROM quay.io/dexidp/dex:v2.15.0
 
 WORKDIR /web/themes/wuvt/
 COPY themes/wuvt/logo.png ./
@@ -9,4 +9,3 @@ WORKDIR /
 ENTRYPOINT ["dex"]
 
 CMD ["version"]
-
